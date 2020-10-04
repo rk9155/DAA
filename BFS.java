@@ -16,7 +16,7 @@ class Node {
 	 
 	  Node root; 
 	  
-	    void bfs()  
+	    void bFS()  
 	    { 
 	        Queue<Node> queue = new LinkedList<Node>(); 
 	        queue.add(root); 
@@ -46,7 +46,7 @@ class Node {
 	        tree.root.left.left = new Node(4); 
 	        tree.root.left.right = new Node(5); 
 	 
-	        tree.bfs(); 
+	        tree.bFS(); 
 	    } 
 	} 
  
